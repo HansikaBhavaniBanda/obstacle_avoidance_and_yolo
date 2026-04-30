@@ -18,7 +18,7 @@ public class CsvWaypointDataProvider {
         try {
 
             BufferedReader reader = new BufferedReader(
-                    new FileReader("data-generation/sample-data/Trajectory 1.csv")
+                    new FileReader("data-generation\\sample-data\\evtol_trajectory_final (1).csv")
             );
 
             String line;
